@@ -14,7 +14,7 @@
                 <img class="logo" src="../css-odin-sign-up-form/img/odin-logo-lined.png" alt="ODIN">
                 <h1>ODIN</h1>
             </div>
-            <p class="credit">Photo by Jônatas Tinoco on Unsplash</p>
+            <p class="credit">Photo by <a href="https://unsplash.com/@tinoco_001?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Jônatas Tinoco</a> on <a href="https://unsplash.com/s/photos/minas-gerais?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </div>
         <div id="div-form">
             <div class="disclaimer">
@@ -48,11 +48,11 @@
                     <span>
                         <div>
                             <label for="pass">Password:</label>
-                            <input type="password" name="pass" id="pass" required>
+                            <input type="password" name="pass" id="pass" onchange="checkPass()"  required>
                         </div>
                         <div>
                             <label for="confirm-pass">Confirm Password:</label>
-                            <input type="password" name="confirm-pass" id="confirm-pass" required>
+                            <input type="password" name="confirm-pass" id="confirm-pass" onchange="checkPass()" required>
                         </div>
                         </span>
                     <br>
@@ -60,7 +60,7 @@
                     
                 </form>
             </div>
-            <p class="user">Already have an account? Log in</p>
+            <p class="user">Already have an account? <a href="#">Log in</a> </p>
         </div>
     </div>
     <script type="text/javascript" src="javascript.js"></script>
