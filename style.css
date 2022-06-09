@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: rgb(65, 42, 42) ;
+    background-image: url(../css-odin-sign-up-form/img/estrada_real.jpeg);
+    background-size: 7.2%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    outline: solid 2px white;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    height: 100vh;
+}
+
+.div-image{
+    position: relative;
+    margin: 0;
+    background-image: url(../css-odin-sign-up-form/img/tabuleito_tinoco.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+}
+
+.slogan{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: white; /*rgba(13, 51, 12); */
+    margin-top: 8rem;
+    line-height: 6rem;
+}
+
+
+
+.slogan h1{
+    position: relative;
+    left: 45%;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 60px;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    height: 5rem;
+    top: 7%;
+    right: 55%;
+}
+
+.credit{
+    position: absolute;
+    bottom: 0; 
+    color: white;
+    margin-left: 5vw;
+}
+
+#div-form{
+    color: white;
+    background-color: rgb(85, 90, 85);
+    background-image: linear-gradient(gray,rgba(63, 32, 11, 0.981));
+}
+
+.disclaimer{
+    margin: 10vh 5vw;
+    /* margin-bottom: 20%; */
+    font-size: 10px;
+}
+
+label, input{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-radius: 15px ;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:focus {
+    box-shadow: 3px 3px 3px;
+}
+
+span{
+    display: flex;
+    gap: 10px;
+}
+
+.form-fields{
+    padding: 1vh 5vw 3vh 5vw;
+    background-color: rgba(63, 32, 11, 0.281);
+    box-shadow: 0px 5px 3px rgba(12, 12, 10, 0.523), 0px -5px 2px rgb(12, 12, 11,0.523);
+}
+
+button{
+    background-color: #596D48;
+    border-radius: 10%;
+    font-size: 15px;
+    font-style: bold;
+    color: white;
+}
+
+.user  {
+    padding: 0 5vw 0 5vw;
+}
